@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cck"
+version = "0.1.0"
+description = ""
+authors = ["Honza Blažek <gimli@matfyz.cz>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.5"
+boto3 = "^1.16.18"
+requests = "^2.25.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

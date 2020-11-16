@@ -1,6 +1,6 @@
 import boto3
 import requests
-from urllib.parse import urlparse
+from urllib3.util import parse_url as urlparse
 from datetime import date
 import base64
 
